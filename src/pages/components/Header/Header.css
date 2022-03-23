@@ -1,0 +1,16 @@
+.app--header {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.app--header > * {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    cursor: pointer;
+}

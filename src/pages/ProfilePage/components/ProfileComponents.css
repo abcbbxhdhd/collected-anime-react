@@ -1,0 +1,107 @@
+.person--section {
+    margin-top: 30px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nickname--section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ri-account-box-fill {
+    font-size: 200px;
+}
+
+.ri-pencil-line, .ri-save-line {
+    font-size: x-large;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.nickname--section > * {
+    font-family: 'Bruno Ace', sans-serif;
+}
+
+.nickname--input {
+    border: 1px solid black;
+
+}
+
+.nickname--input:focus {
+    outline: none;
+}
+
+.status--nav {
+    display: flex;
+    gap: 30px;
+    align-self: center;
+}
+
+.status--nav > * {
+    font-family: 'Bruno Ace', sans-serif;
+    cursor: pointer;
+    padding: 5px 5px;
+}
+
+.status--nav > *:hover {
+    background-color: black;
+    color: white
+}
+
+.profile--anime--section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.status--anime--card {
+    display: flex;
+    align-items: center;
+}
+
+.status--anime--info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.status--anime--poster {
+    height: 300px;
+    width: 200px;
+}
+
+.ri-delete-bin-5-line {
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.status--anime--title {
+    font-family: 'Bruno Ace', sans-serif;
+    font-size: 10px;
+}
+
+.anime--status--grid {
+    margin-top: 10px;
+    display: grid;
+    grid-template-areas: 'c c c';
+    gap: 100px;
+}
+
+.tab {
+    background-color: white;
+    color: black
+}
+
+.tab-focused {
+    background-color: black;
+    color: white;
+}
+
+

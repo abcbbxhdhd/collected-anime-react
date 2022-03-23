@@ -1,0 +1,30 @@
+.main--page {
+    height: 100vh;
+    width: 100vw;
+}
+
+.home--button--start {
+    position: absolute;
+    margin-top: 45vh;
+    margin-left: 45vw;
+    height: 100px;
+    width: 200px;
+    background-color: black;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    font-family: 'Bruno Ace', serif;
+}
+
+.home--button--start:hover {
+    background-color: white;
+    border: 3px solid black;
+    cursor: pointer;
+    color: black;
+}
+
+.start--link {
+    font-family: 'Bruno Ace', serif;
+    color: black;
+    text-align: center;
+}
